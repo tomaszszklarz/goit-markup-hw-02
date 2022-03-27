@@ -1,0 +1,42 @@
+:root {
+    --main-font:'Roboto', sans-serif;
+    --secend-font:'Raleway', sans-serif;
+    --secend-color: #2196F3;
+    --first-color: #757575;
+}
+body {
+    font-family: var(--main-font);
+    color: #212121;
+
+}
+
+/*--------Header----------*/
+.logo {
+    color: var(--secend-color);
+}
+.navi-link {
+font-size: 14px;
+line-height: 1.142em;
+font-weight: 500;
+}
+.header-link {
+font-family: var(--secend-font);
+font-size: 26px;
+font-weight: 700;
+line-height: 1.192em;
+}
+.header-link:hover, .header-link:focus,
+ .navi-link-item:hover , navi-link-item:focus, 
+ .link-mail:hover, .link-mail:focus,
+ .link-photo:hover, .link-phone:focus  {
+    color: var(--secend-color);
+}
+.link-mail, .link-phone {
+font-size: 14px;
+font-weight: 500;
+line-height: 1.142em;
+color: var(--first-color);
+}
+
+
+/*--------End Header----------*/

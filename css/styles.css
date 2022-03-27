@@ -11,32 +11,89 @@ body {
 }
 
 /*--------Header----------*/
+.header-link {
+    font-family: var(--secend-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192em;
+    color: #212121;
+}
 .logo {
     color: var(--secend-color);
 }
-.navi-link {
-font-size: 14px;
-line-height: 1.142em;
-font-weight: 500;
-}
-.header-link {
-font-family: var(--secend-font);
-font-size: 26px;
-font-weight: 700;
-line-height: 1.192em;
-}
 .header-link:hover, .header-link:focus,
- .navi-link-item:hover , navi-link-item:focus, 
- .link-mail:hover, .link-mail:focus,
- .link-photo:hover, .link-phone:focus  {
-    color: var(--secend-color);
+ .header-link:active {
+color: var(--secend-color);
+}
+.navi-list-link {
+    color: #212121;
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.142em;
 }
 .link-mail, .link-phone {
-font-size: 14px;
-font-weight: 500;
-line-height: 1.142em;
-color: var(--first-color);
+    color: var(--first-color);
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.142em;
 }
-
-
+.navi-list-link:hover, .navi-list-link:focus, .navi-list-link:active,
+.link-mail:hover, .link-mail:focus, .link-mail:active,
+.link-phone:hover, .link-phone:focus, .link-phone:active  {
+    color: var(--secend-color);
+}
 /*--------End Header----------*/
+/*-------Body----------*/
+.efect-head {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.363em;
+    color: white;
+}
+.efect {
+    background-color: #2F303A;
+}
+.btn-service {
+    font-family: var(--secend-font);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875em;
+    background-color: var(--secend-color);
+    color: white;
+}
+.btn-service:hover, .btn-service:focus, .btn-service:active {
+    color: var(--secend-color);
+}
+.article-head {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.142em;
+}
+.article-p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.714em;
+}
+.working-head {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.166em;
+}
+.teams-head {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.166em;
+}
+.teams-caption {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.187em;
+}
+.teams-caption-text {
+   font-size: 16px;
+    font-weight: 400;
+    line-height: 1.187em; 
+}
+/*-------End Body-------*/

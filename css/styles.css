@@ -97,3 +97,26 @@ color: var(--secend-color);
     line-height: 1.187em; 
 }
 /*-------End Body-------*/
+/*------main Portfolio------*/
+.btn-list {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625em;
+}
+.btn-list:hover, .btn-list:focus, .btn-list:active {
+    color: var(--secend-color);
+    cursor: pointer;
+}
+.fotos-caption {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2em;
+}
+.fotos-caption-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.875em;
+}
+
+
+/*------ End main Portfolio-------*/
